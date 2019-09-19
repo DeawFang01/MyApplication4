@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-         add.setOnClickListener (new View.OnClickListener() {
+         add2.setOnClickListener (new View.OnClickListener() {
 
              @Override
              public void onClick(View View) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                  txt1.setText(String.valueOf(result));
              }
          });
-            add2.setOnClickListener(new View.OnClickListener() {
+            add3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int x = Integer.parseInt(in1.getText().toString());
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     txt1.setText(String.valueOf(result));
                 }
             });
-            add3.setOnClickListener(new View.OnClickListener() {
+            add4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int x= Integer.parseInt(in1.getText().toString());
